@@ -11,6 +11,7 @@ programa {
   }
   funcao inicio() {
     inteiro numero
+    escreva("Esse programa informa quantos digitos um número digitado possui. \n ")
     escreva("Digite um número para saber quantos digitos ele tem: ")
     leia(numero)
     escreva("O número tem ", contarDigitos(numero), " digitos!")
